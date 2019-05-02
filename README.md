@@ -1,4 +1,8 @@
 # go-entrust
+
+### Description
+Search certificate transparency (CT) logs using Entrust's API
+
 ### Usage
 ```
 go run .\entrust-ct-search.go -domain acuereqol.org
