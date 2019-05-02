@@ -9,7 +9,7 @@ import (
 
 func main() {
 	var domain string
-	flag.StringVar(&domain, "domain", "acuereqol.org", "Domain to search for CT logs")
+	flag.StringVar(&domain, "domain", "", "Domain to search for CT logs")
 	flag.Parse()
 	fmt.Println(domain)
 	entrustcertsearch(domain)
